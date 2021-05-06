@@ -1,0 +1,23 @@
+.shippingContainer
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.forms
+{
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px #eee;
+    border-radius: 10px;
+}
+.inputStyling
+{
+    border: none;
+    border-bottom: 1px solid rgb(136, 133, 133);
+    outline: none;
+    text-decoration: none;
+    padding: 3px;
+}

@@ -1,0 +1,26 @@
+.review-container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.left-container
+{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 100px 200px;
+}
+.right-side
+{
+    width: 200px;
+}
+.right-container
+{
+    
+    margin-left: 100px;
+    width: 600px;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    
+    
+}

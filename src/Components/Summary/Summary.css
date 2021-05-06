@@ -1,0 +1,13 @@
+.topSummary
+{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px #eee;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.topSummary:hover
+{
+    transform: scale(1);
+    cursor: pointer;
+}

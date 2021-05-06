@@ -1,0 +1,48 @@
+.img-container
+{
+    
+    
+    display: flex;
+    padding-left: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.logo
+{
+    text-transform: uppercase;
+    font-size: 50px;
+   
+    text-align: center;
+    margin-left:30%;
+}
+
+.logo_name
+{
+    font-weight: bold;
+    font-size: 60px;
+    border-bottom:  2px solid yellow;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.search-text
+{
+    
+    color: black;
+    border: 2px solid;
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+.factory
+{
+    margin-left: 450px;
+}
+.shoe
+{
+    background-image: url('https://cdn.dribbble.com/users/862260/screenshots/9042757/media/b4e665c1787bc6111701d0a45bc8beac.jpg?compress=1&resize=400x300');
+    height: 300px;
+    background-repeat: no-repeat;
+}

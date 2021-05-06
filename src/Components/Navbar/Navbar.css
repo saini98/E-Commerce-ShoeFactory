@@ -1,0 +1,33 @@
+
+.cart-items
+{
+    position: relative;
+
+}
+
+.cart-count
+{
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position:absolute;
+    left: 1px;
+    top: 2px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .ul-items
+    {
+        display: flex;
+        width: 100%;
+    }
+    
+}
+@media (max-width: 767px)
+{
+   
+}

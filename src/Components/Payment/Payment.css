@@ -1,0 +1,34 @@
+.paymentContainer
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.paymentDetails
+{
+    box-shadow: 10px 10px 10px 10px #eee;
+    border-radius: 10px;
+}
+.topDetails
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.bottomDetails
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.w-20
+{
+    width: 15%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

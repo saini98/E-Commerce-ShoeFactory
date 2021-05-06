@@ -1,0 +1,114 @@
+.cart-container
+{
+    width: 100%;
+    
+}
+.cart-top-items
+{
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.5;
+    border-bottom: 1px solid;
+    
+}
+.mt-100
+{
+    margin-top: 100px;
+    padding: 20px;
+    cursor: pointer;
+}
+.image-container
+{
+    display: grid;
+    
+}
+.cart-top-items .first-child
+{
+    margin-top: 100px;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+    padding: 20px;
+    font-weight: bold;
+    
+}
+
+
+.cart-bottom-items
+{
+    border: 5px solid black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+
+.left-cart-items
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 30px;
+    
+}
+
+
+.main-items
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -100px;
+}
+.right-cart-items
+{
+    margin-top: 50px;
+    margin-right: 20px;
+    
+
+}
+.bill-item
+{
+    display: flex;
+    justify-content: space-between;
+}
+.total-amount
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-remove-icons
+{
+    font-size: 20px;
+    border: 1px solid;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+.icon-button
+{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.Discount
+{
+    border: none;
+    outline: none;
+}
+.Discount::placeholder
+{
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+.empty
+{
+    margin-bottom: 55px;
+}
+.checkout
+{
+    margin-top: 100px;
+}
