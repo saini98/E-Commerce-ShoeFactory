@@ -1,7 +1,10 @@
-import React from 'react'
-import "./About.css"
+import React from 'react';
+import "./About.css";
+import Footer from '../Footer/Footer'
 function AboutUs() {
-    return (
+    return ( <div>
+        
+    
         <div className="aboutUs">
             <img src="https://cdn.dribbble.com/users/862260/screenshots/9042757/media/b4e665c1787bc6111701d0a45bc8beac.jpg?compress=1&resize=400x300" alt="" height={500}  width={500}/>
             <div>
@@ -15,6 +18,8 @@ function AboutUs() {
                 Vulputate dignissim suspendisse in est ante in. Hendrerit dolor magna eget est. Faucibus a pellentesque sit amet porttitor.  Tristique et egestas quis ipsum suspendisse ultrices. Eu non diam phasellus vestibulum lorem. Nec tincidunt praesent semper feugiat nibh. Euismod elementum nisi quis eleifend quam.</p>
             </div>
         </div>
+       <Footer />
+    </div>
     )
 }
 

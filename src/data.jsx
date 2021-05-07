@@ -9,7 +9,8 @@ const initialState ={
             ratings: ' ★ ★ ★ ★ ★ ',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             id:2,
@@ -20,7 +21,8 @@ const initialState ={
             ratings: '★ ★ ★ ★ ☆',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             id:3,
@@ -31,7 +33,8 @@ const initialState ={
             ratings: '★ ★ ★ ★ ★',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             id:4,
@@ -42,7 +45,8 @@ const initialState ={
             ratings: '★ ★ ★ ★ ☆ ',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             id:5,
@@ -53,7 +57,8 @@ const initialState ={
             ratings: '★ ★ ★ ★ ☆',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             id:6,
@@ -64,7 +69,8 @@ const initialState ={
             ratings: '★ ★ ★ ★ ☆',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             id:7,
@@ -75,7 +81,8 @@ const initialState ={
             ratings: '★ ★ ★ ☆ ☆',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             id:8,
@@ -86,7 +93,8 @@ const initialState ={
             ratings: '★ ★ ★ ★ ☆',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             
@@ -98,7 +106,8 @@ const initialState ={
             ratings: '★ ★ ★ ☆ ☆',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             id:10,
@@ -109,7 +118,8 @@ const initialState ={
             ratings: '★ ★ ★ ★ ☆',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             
@@ -121,7 +131,8 @@ const initialState ={
             ratings: '★ ★ ★ ☆ ☆',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[7,8,9,10],
-            tax: '500'
+            tax: '500',
+            discount:'BOOTCAMP2021'
         },
         {
             id:12,
@@ -132,7 +143,8 @@ const initialState ={
             ratings: '★ ★ ★ ★ ★',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
             size:[6,7,8,9,10],
-            tax: '999'
+            tax: '999',
+            discount:'BOOTCAMP2021'
         }
     ],
     product:{ }

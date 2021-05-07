@@ -54,6 +54,8 @@ const Payment = (props) => {
     const [expiryDate, setExpiryDate] = useState("");
     const [cvv, setCvv] = useState("");
     const [name, setName] = useState("");
+    // const [radio1, setRadio1] = useState("");
+    // const [radio2, setRadio2] = useState("");
     const [loader, setLoader] = useState(false);
 
     const handleSubmit = (e) => {
@@ -65,7 +67,9 @@ const Payment = (props) => {
                     cardNumber:cardNumber,
                     expiryDate:expiryDate,
                     cvv:cvv,
-                    name:name
+                    name:name,
+                    
+                   
                     
                 })
 
@@ -77,10 +81,28 @@ const Payment = (props) => {
             setExpiryDate("");
             setCvv("");
             setName("");
+            
+            
            
 
         }
-     
+        else if(cardNumber==="")
+        {
+            alert('Card Number is empty')
+        }
+        else if(expiryDate==="")
+        {
+            alert('Date is empty')
+        }
+        else if(cvv==="")
+        {
+            alert('CVV number is empty')
+        }
+        else if(name==="")
+        {
+            alert('Name is empty')
+        }
+    
         else 
         {
             alert('All Fields are required');

@@ -10,38 +10,30 @@ const Cart = (props) => {
 
 
 
-    const { products, totalPrice } = useSelector(state => state.CartReducer);
+    const { products, totalPrice , discount} = useSelector(state => state.CartReducer);
     // console.log('products', products)
     const dispatch = useDispatch()
 
-    
-    function couponCode(e) {
-        e.preventDefault();
-        console.log('event',e.target.value)
-        
-        if(e.target.value === "BOOTCAMP2021")
-        {
-            
-        }
-    }
+   
     return (
         <div className="cart-container">
             
             <ShippingNavigation selectedChild={1} />
+            <h1 className="p-2">Shopping Cart</h1>
             {products.length > 0 ?
                 <div className="cart-bottom-items">
                     {
                         products.map((product, key) => (
                             <>
                                 <div className="left-cart-items" >
-                                    <p>Shopping Cart</p>
+                                    
                                     <hr />
                                     <div className="main-items"key={key}>
                                         <div className="image-container">
                                             <img src={product.image} alt="" height={100} width={100} />
 
                                         </div>
-                                        
+                                         {/* <input placeholder="ENTER COUPON CODE" className="Discount" onClick={() => dispatch({ type: 'DISCOUNT', payload: product.id })}  /> */}
                                         <div className="add-remove-icons">
                                             <button className="icon-button" onClick={() => dispatch({ type: 'INCREMENT', payload: product.id })}><IoIosAddCircleOutline /></button >
                                             <p>{product.quantity}</p>
@@ -75,12 +67,13 @@ const Cart = (props) => {
                             </>
                         ))}
                     <>
+                  
                         <div className="right-cart-items mx-5">
                             <p>Summary</p>
                             <hr />
-                            <input placeholder="ENTER COUPON CODE" className="Discount" onChange={couponCode} />
+                            <input placeholder="ENTER COUPON CODE" className="Discount" />
                             <hr />
-                            <div className="bill">
+                             <div className="bill">
                                 <div className="bill-item">
                                     <p>SUBTOTAL</p>
                                     <p>₹  {totalPrice}</p>
@@ -99,11 +92,12 @@ const Cart = (props) => {
 
                             <div className="total-amount">
                                 <p>TOTAL</p>
-                                <p>₹ {totalPrice + 500}</p>
+                                <p>₹ {totalPrice - discount + 500}</p>
                             </div>
 
 
                         </div>
+                     
                     </>
                     <div className="mt-5"> 
                     <Link to="/shipping-details"> <button className="checkout btn btn-primary ml-5 mb-5">Next</button></Link>

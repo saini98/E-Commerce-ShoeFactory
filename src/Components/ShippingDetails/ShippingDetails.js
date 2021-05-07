@@ -77,9 +77,9 @@ const ShippingDetails = (props) => {
         }
         else if(city==="")
         {
-            alert('Name is required')
+            alert('City is required')
         }
-        else if(number==="")
+        else if(number==="" && number < 10)
         {
             alert('Number is required')
         }

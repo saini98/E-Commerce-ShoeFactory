@@ -112,3 +112,38 @@
 {
     margin-top: 100px;
 }
+
+@media (min-width: 768px) and (max-width: 991px){
+   .main-items
+   {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       box-shadow: 5px 5px 5px rgb(211, 189, 189);
+       border-radius: 10px;
+       margin-top: 10px;
+       margin-left: 10px;
+   }
+   .add-remove-icons
+    {
+        display: flex;
+        font-size: 20px;
+        border: 1px solid;
+        align-items: center;
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        
+    }
+    .icon-button
+    {
+        border: none;
+        outline: none;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 5px;
+
+    }
+}

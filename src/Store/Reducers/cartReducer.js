@@ -2,7 +2,7 @@ const initialState = {
     products: [],
     totalPrice: 0,
     totalQuantity:0,
-    
+    discount:1000
 
 }
 
@@ -61,11 +61,24 @@ const CartReducer = (state = initialState, action) => {
                         totalPrice: state.totalPrice - searchProduct.price, totalQuantity: state.totalQuantity -1
                     }
                 }
+
+
                 else
                 {
                     return state;
                 }
-               
+            case 'DISCOUNT':
+                searchProduct = state.products.find(product => product.id === action.payload);
+                index = state.products.findIndex(product => product.id === action.payload);
+                if(searchProduct.discount === "BOOTCAMP2021")
+                {
+                    state.products[index] =searchProduct;
+                    return {
+                        ...state,
+                        totalPrice: state.totalPrice - searchProduct.discount
+                    }
+
+                }
             
         default:
             return state;
